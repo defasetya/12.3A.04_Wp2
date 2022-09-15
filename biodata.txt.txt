@@ -2,4 +2,5 @@ NIM	: 12210224
 Nama	: Defata
 Kelas	: 12.3A.04
 Prodi	: Sistem Informasi
-Alamat	: Cibitung, Bekasi.
+Alamat	: Cibitung, Bekasi
+No Hp	: 0881024406999
