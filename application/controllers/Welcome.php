@@ -20,6 +20,17 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$this->load->view('hello_world');
 	}
+
+	public function halo()
+	{
+		$data['nama_web'] = "<br> <h1>Halo, saya belajar CI3</h1?";
+		$data=array(
+			'judul'=> "Belajar CI3",
+			'desk'=> "Belajar parsing data array"
+		);
+		$this->load->view('view_belajar', $data);
+	}
+	
 }
